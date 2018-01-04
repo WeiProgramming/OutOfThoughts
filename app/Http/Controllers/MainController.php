@@ -15,6 +15,10 @@ class MainController extends Controller
     public function getAbout(){
     	return view('about');
     }
+
+    public function getLanding(){
+    	return view('landingtwo');
+    }
 }
 
 

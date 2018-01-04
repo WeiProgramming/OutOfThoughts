@@ -14,4 +14,13 @@
 Route::resource('home','HomeController');
 
 Route::get("/","MainController@getIndex")->name('welcome');
+
 Route::get("/about","MainController@getAbout")->name('about');
+// Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/landingtwo', ['uses'=>'MainController@getLanding','as' => 'landingtwo']);
+
+Auth::routes();
+

@@ -1,4 +1,10 @@
 <style>
+    *{
+        margin:0px;
+        padding: 0px;
+        font-size: 100%;
+        line-height: 1;
+    }
     a {
         text-decoration: none;
         color: gray;
