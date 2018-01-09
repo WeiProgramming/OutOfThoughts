@@ -28,6 +28,16 @@
       background-position: center;
     }
 
+    a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    font-weight: normal;
+    color: white;
+}
+
 
 
     .panel > * {
@@ -69,9 +79,9 @@
 <body>
 	<div class = "panels">
     <a class = "panel home" href="#" style="background-image: url('../img/aesth-home-bg.jpg">
-			<h3>Go</h3>
+			<h3>Redirecting</h3>
 			<h3>Home</h3>
-			<h3>Ahead</h3>
+			<h3>Relax</h3>
     </a>
 		<div class= "panel" style="background-image: url('../img/water-bg.jpeg">
 			<h3>Let's</h3>
@@ -110,7 +120,7 @@
       if(this.classList.contains('home')){
         setTimeout(function(){
           window.location.replace('{{route('welcome')}}');
-        },1000);
+        },1500);
       }
 		}
 

@@ -1,10 +1,17 @@
 <style>
+    @import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
     *{
         margin:0px;
         padding: 0px;
         font-size: 100%;
         line-height: 1;
     }
+
+    body {
+        font-family: 'Kaushan Script', cursive;
+    }
+
     a {
         text-decoration: none;
         color: gray;
@@ -24,8 +31,30 @@
     .navbar{
         margin-bottom: 0px;
         border-radius: 0;
+
     }
 
+    .navbar-inverse .navbar-brand {
+        color: #2a2a46;
+    }
+
+    .navbar-inverse {
+        background-color: rgba(97, 191, 228, 0.3);
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+        color: #2a2a46;
+    }
+    .navbar-inverse .navbar-nav>li>a:hover {
+        color: white;
+    }
+
+    .navig-bar {
+        left: 0;
+        right: 0;
+        position: fixed;
+        z-index: 5;
+    }
     .carousel-caption{
         top:50%;
         transform: translateY(-50%);
@@ -100,5 +129,9 @@
     .comments-section{
         background-image:url('https://thumbs.dreamstime.com/b/relax-vacation-time-holiday-summer-feeling-wooden-texture-floor-balcony-skyline-nature-scenery-background-to-adapt-idea-66144281.jpg');
         background-size: cover;
+    }
+
+    .btn {
+        border-radius: 5%;
     }
 </style>
