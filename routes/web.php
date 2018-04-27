@@ -22,5 +22,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/landingtwo', ['uses'=>'MainController@getLanding','as' => 'landingtwo']);
 
+Route::get('/landingthree',['uses'=>'MainController@getLandingThree','as'=>'landingthree']);
+
 Auth::routes();
 

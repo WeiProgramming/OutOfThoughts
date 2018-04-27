@@ -13,7 +13,8 @@
             <div class = "collapse navbar-collapse" id = "uniNavbar">
                 <ul class = "nav navbar-nav">
                     <li class = "active"><a href="{{route('welcome')}}">Home</a></li>
-                    <li class = ""><a href="{{route('landingtwo')}}">LandingTwo</a></li>
+                    <li><a href="{{route('landingtwo')}}">LandingTwo</a></li>
+                    <li><a href="{{route('landingthree')}}">LandingThree</a></li>
                     <li><a href="{{route('about')}}">About</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>

@@ -26,8 +26,6 @@
         height: auto;
     }
 
-    .carousel-inner > .item > img { width:100%; height:700px; }
-
     .navbar{
         margin-bottom: 0px;
         border-radius: 0;
@@ -65,6 +63,8 @@
         font-size: 19px;
         padding: 12px 12px;
     }
+    
+    .carousel-inner > .item > img { width:100%; height:700px; }
 
     .navbar-brand:hover{
         text-decoration: none;
